@@ -61,9 +61,6 @@ This GitHub showcases the **projects, labs, and tools** I build as I grow into a
 ### **🔧 Security Tools**
 `Wireshark` • `Splunk` • `Nessus` • `Nmap` • `Kali Linux` • `Metasploit`  
 
-### **💻 Languages**
-`Java` • `C#` • `SQL`
-
 ### **🖥️ Systems**
 `Windows` • `Linux` • `macOS`
 
