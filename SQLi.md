@@ -1,3 +1,5 @@
+[← Back](README.md)
+
 #  SQL injection demonstration  
 
 SQL injection is a vulnerability in websites that do not have proper input validation, which allows user input to be taken as SQL code.
@@ -39,3 +41,5 @@ SQL injection is a vulnerability in websites that do not have proper input valid
 - Use a safe API which avoids using the interpreter completely.
 - Server side input validation
 - If you have to use query with user input escape any special characters so they cannot be treated as SQL commands.
+
+[← Back](README.md)
