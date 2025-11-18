@@ -2,7 +2,6 @@
 
 SQL injection is a vulnerability in websites that do not have proper input validation, which allows user input to be taken as SQL code.
 
-User input should be properly sanitized before being sent to a database.
 ---
 
 ## **1=1 is always true**
@@ -12,6 +11,8 @@ User input should be properly sanitized before being sent to a database.
 - SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = 'password'
 
 -  This will return true because because '1'='1' is always true so the condition becomes true.
+
+  
   ![1=1 Screenshot](/1=1SQLi.png)
 
 
@@ -21,6 +22,8 @@ User input should be properly sanitized before being sent to a database.
 
 - This will return true because it ignores the rest of the condition after the comment requesting the password
 - since the username = your input it will return true.
+
+  
   ![-- Screenshot](/--SQLi.png)
 
 ## **How to spot?**
@@ -28,6 +31,8 @@ User input should be properly sanitized before being sent to a database.
 - By using the following user input, "  username'   "
 - The website responds with an error, "Syntax error: Encountered "aaa" at line 1, column 67."
 - Based on this response you can see that proper sanitization has not occurred making this website vulnerable to SQL injection.
+
+  
   ![-- Screenshot](/SQLCheck.png)
 
 ## **Prevention**
