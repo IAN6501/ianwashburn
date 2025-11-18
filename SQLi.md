@@ -12,7 +12,7 @@ User input should be properly sanitized before being sent to a database.
 - SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = 'password'
 
 -  This will return true because because '1'='1' is always true so the condition becomes true.
-  ![1=1 Screenshot](ianwashburn/1=1SQLi.png)
+  ![1=1 Screenshot](/1=1SQLi.png)
 
 
 ## **-- comment**
@@ -21,14 +21,14 @@ User input should be properly sanitized before being sent to a database.
 
 - This will return true because it ignores the rest of the condition after the comment requesting the password
 - since the username = your input it will return true.
-  ![-- Screenshot](ianwashburn/--SQLi.png)
+  ![-- Screenshot](/--SQLi.png)
 
 ## **How to spot?**
 - You can check a website to see if it vulnerable to SQL injection by attempting SQL code in a input box
 - By using the following user input, "  username'   "
 - The website responds with an error, "Syntax error: Encountered "aaa" at line 1, column 67."
 - Based on this response you can see that proper sanitization has not occurred making this website vulnerable to SQL injection.
-  ![-- Screenshot](ianwashburn/SQLCheck.png)
+  ![-- Screenshot](/SQLCheck.png)
 
 ## **Prevention**
 - Use a safe API which avoids using the interpreter completely.
