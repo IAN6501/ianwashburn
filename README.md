@@ -17,7 +17,7 @@ This GitHub showcases the **projects, labs, and tools** I build as I grow into a
 - Designed a custom Splunk dashboard  
 **Tech:** `Splunk` `Windows Event Logs` `PowerShell` `Kali Linux`  
 
-📦 Repo (Coming Soon)
+🔗 Link (Coming Soon)
 
 ---
 
@@ -28,7 +28,7 @@ This GitHub showcases the **projects, labs, and tools** I build as I grow into a
 - Analyzed SSL/TLS, outdated software, and misconfigured services  
 **Tech:** `Nessus` `Nmap` `Vulnerability Management`
 
-📦 Repo (Coming Soon)
+🔗 Link (Coming Soon)
 
 ---
 
@@ -40,7 +40,7 @@ This GitHub showcases the **projects, labs, and tools** I build as I grow into a
 - Performed basic privilege escalation techniques  
 **Tech:** `Kali Linux` `Metasploit` `Recon Tools`  
 
-📦 Repo (Coming Soon)
+🔗 Link (Coming Soon)
 
 ---
 
@@ -52,7 +52,19 @@ This GitHub showcases the **projects, labs, and tools** I build as I grow into a
 - Tested SQL injection in a controlled environment  
 **Tech:** `SQL Server` `MySQL` `SQL Injection Mitigation`
 
-📦 Repo (Coming Soon)
+🔗 Link (Coming Soon)
+
+---
+
+### 🔓 **5. SQL Injection Demonstration & Analysis**
+**Goal:** Understand how insecure input handling can allow attackers to manipulate SQL queries and bypass authentication.
+**Highlights:**
+- Demonstrate differnt SQL methods 
+- How improper sanitization leads to injection
+- Observed how SQL error leakage confirms vulnerability
+- Mitigation techniques for this vulnerability
+
+🔗 [Link](SQLi.md)
 
 ---
 
