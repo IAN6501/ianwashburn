@@ -3,6 +3,7 @@
 #  SQL injection demonstration  
 
 SQL injection is a vulnerability in websites that do not have proper input validation, which allows user input to be taken as SQL code.
+This was tested on a website created for testing web vulnerabilities (https://demo.testfire.net/index.jsp)
 
 ---
 
